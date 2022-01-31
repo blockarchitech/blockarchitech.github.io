@@ -1,3 +1,0 @@
-# blockarchitech
-Hello!
-Hello!
