@@ -8,7 +8,24 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+.gradient {
+	background: linear-gradient(
+		to right,
+		var(--red),
+		var(--yellow),
+		var(--lime),
+		var(--green),
+		var(--cyan),
+		var(--blue),
+		var(--purple),
+		var(--pink)
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: rainbow 5s ease infinite;
+	background-size: 400% 100%;
+}
 
 /**
  * Basic styling
