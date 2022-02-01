@@ -1,6 +1,6 @@
 - blockarchitech.github.io source code -
 
-This is the source tree for my webiste, blockarchitech.github.io.
+This is the source code for my webiste, blockarchitech.github.io.
 
 This is licensed under the MIT license, and is using lildude's minima-dude theme which is also licensed under the MIT license (https://github.com/lildude/minima-dude)
 
