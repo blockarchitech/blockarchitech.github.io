@@ -5,14 +5,9 @@
 @import "minima_dude";
 
 :root {
-	--red: #c96565;
-	--yellow: #c9b065;
-	--lime: #8cba5d;
-	--green: #65b87a;
 	--cyan: #60b5a8;
 	--blue: #658fc9;
 	--purple: #8665c9;
-	--pink: #c965c1;
 	--accent: var(--blue);
 
 	--background: #fff;
@@ -24,14 +19,10 @@
 .gradient {
 	background: linear-gradient(
 		to right,
-		var(--red),
-		var(--yellow),
-		var(--lime),
-		var(--green),
 		var(--cyan),
 		var(--blue),
-		var(--purple),
-		var(--pink)
+		var(--purple)
+
 	);
 	-webkit-background-clip: text;
 	background-clip: text;
