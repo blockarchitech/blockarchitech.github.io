@@ -8,6 +8,23 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+:root {
+	--red: #c96565;
+	--yellow: #c9b065;
+	--lime: #8cba5d;
+	--green: #65b87a;
+	--cyan: #60b5a8;
+	--blue: #658fc9;
+	--purple: #8665c9;
+	--pink: #c965c1;
+	--accent: var(--blue);
+
+	--background: #fff;
+	--backdrop: #eee;
+	--foreground: #444;
+	--shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
 .gradient {
 	background: linear-gradient(
 		to right,
