@@ -1,0 +1,14 @@
+{% capture video_id %}{{ include.id }}{% endcapture %}
+{% capture video_provider %}{{ include.provider }}{% endcapture %}
+
+{% comment %}
+<!-- Courtesy of embedresponsively.com //-->
+Usage: `{% include video id="[code]" provider="[provider]" %}`
+{% endcomment %}
+<div class="responsive-video-container">
+{% if video_provider == "vimeo" %}
+  <iframe src="https://player.vimeo.com/video/{{ video_id }}?rel=0" style="border:0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+{% elsif video_provider == "youtube" %}
+  <iframe src="https://www.youtube.com/embed/{{ video_id }}?rel=0" style="border:0" allowfullscreen></iframe>
+{% endif %}
+</div>

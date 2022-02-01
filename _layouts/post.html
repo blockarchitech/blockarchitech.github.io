@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <p class="post-meta">
+    <a class="note_url u-url" href="{{ page.url | relative_url }}">★</a> • <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {% assign date_format = site.minima_dude.date_format | default: "%-d %b %Y" %}
+      {{ page.date | date: date_format }}
+    </time>
+    {% if page.author %}
+      • <span class="p-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+    {% endif %}
+    {% if page.tags %}
+      • {% for tag in page.tags %}<span class="p-category">{{ tag | capitalize }}</span>{% if forloop.last != true %}, {% endif %}{% endfor %}
+    {% endif %}
+  </p>
+  {% if page.syndication %}
+    {% for url in page.syndication %}
+    <a class="u-syndication" href="{{ url }}"></a>
+    {% endfor %}
+  {% endif %}
+</article>

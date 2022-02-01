@@ -1,0 +1,7 @@
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+<meta property="og:image" content="{{ page.image | default: '/assets/profile.png' | absolute_url }}">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:type" content="article">
+<meta property="og:description"
+      name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 300 | escape }}">
+<meta name="twitter:card" content="summary">

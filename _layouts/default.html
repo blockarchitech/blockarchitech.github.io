@@ -1,0 +1,54 @@
+---
+---
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% if jekyll.environment == 'production' %}
+  <base href="{{ site.url }}">
+{% endif %}
+{% if site.dns_prefetch %}
+  {% for url in site.dns_prefetch %}
+  <link rel="dns-prefetch" href="//{{ url }}">
+  {% endfor %}
+{% endif %}
+
+{% seo %}
+  <meta name="twitter:dnt" content="on">
+{% if site.microblog.username %}
+  <link href="https://micro.blog/{{ site.microblog.username }}" rel="me">
+  <link rel="micropub" href="https://micropub2github.herokuapp.com/micropub{{ site.microblog.site }}">
+  <link rel="authorization_endpoint" href="https://indieauth.herokuapp.com/auth">
+  <link rel="token_endpoint" href="https://indieauth.herokuapp.com/token">
+{% endif %}
+{% if site.webmentions %}
+  <link rel="webmention" href="https://webmention.io/{{ site.webmentions }}/webmention" />
+  <link rel="pingback" href="https://webmention.io/{{ site.webmentions }}/xmlrpc" />
+{% endif %}
+  <link rel="shortcut icon" type="image/png" href="/img/profile.png">
+  <link rel="preload" as="style" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+{% if page.add_css %}
+  <link rel="preload" as="style" href="{{ page.add_css }}">
+  <link rel="stylesheet" href="{{ page.add_css }}">
+{% endif %}
+  <script defer src="/assets/turbolinks.js"></script>
+</head>
+
+  <body>
+
+    {% include_cached header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include_cached footer.html %}
+
+  </body>
+
+</html>
