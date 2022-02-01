@@ -5,7 +5,7 @@
     {% assign page_paths = site.header_pages | default: default_paths %}
     {% if site.minima_dude.whackwhack %}
     {% assign titleparts = site.title | split: ' ' %}
-    <span class="site-title whackwhack"></span><a class="site-title" href="{{ "/" | relative_url }}">{{ titleparts[0] }} {{ titleparts[1] }}<span>{{ titleparts[2] }} {{ titleparts[3] }}</span></a>
+    <span class="site-title gradient"></span><a class="site-title" href="{{ "/" | relative_url }}">{{ titleparts[0] }} {{ titleparts[1] }}<span>{{ titleparts[2] }} {{ titleparts[3] }}</span></a>
     {% else %}
     <a class="site-title gradient" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {% endif %}
