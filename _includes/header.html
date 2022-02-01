@@ -7,7 +7,7 @@
     {% assign titleparts = site.title | split: ' ' %}
     <span class="site-title whackwhack"></span><a class="site-title" href="{{ "/" | relative_url }}">{{ titleparts[0] }} {{ titleparts[1] }}<span>{{ titleparts[2] }} {{ titleparts[3] }}</span></a>
     {% else %}
-    <a class="site-title text-gradient" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title gradient" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {% endif %}
 
     {% if page_paths %}
