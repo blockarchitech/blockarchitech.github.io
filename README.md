@@ -1,6 +1,7 @@
+[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
+```
 - blockarchitech.github.io source code -
 
-[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
 
 This is the source code for my webiste, blockarchitech.github.io.
 
@@ -14,4 +15,4 @@ To create the posts I use for this website, I use Micropub and convert them to J
 -
 I give no liability, warranty, support, etc to anyone who decides to use this software. This is a personal project and the sole point of this repository is to track my prog-
 ress and host this. Although, If you want to, pull requests and issues are welcomed and usually recieve a response within 12hrs.
-
+```
