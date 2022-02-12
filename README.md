@@ -1,5 +1,7 @@
 - blockarchitech.github.io source code -
 
+[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
+
 This is the source code for my webiste, blockarchitech.github.io.
 
 This is licensed under the MIT license, and is using lildude's minima-dude theme which is also licensed under the MIT license (https://github.com/lildude/minima-dude)
