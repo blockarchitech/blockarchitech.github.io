@@ -10,7 +10,9 @@ This is licensed under the MIT license, and is using lildude's minima-dude theme
 -
 This project uses Jekyll, a static site builder, and GitHub pages, a free hosting service provided by GitHub.
 
-To create the posts I use for this website, I use Micropub and convert them to Jekyll posts using this nifty tool that you can self-host or deploy on Heroku (which is so, so much eaiser.) https://github.com/voxpelli/webpage-micropub-to-github - And I just show them on my front page, which is in /_layouts/home.md/ if you want to check it out.
+To create the posts I use for this website, I use Micropub and convert them to Jekyll posts using this nifty tool that you can self-host or deploy on Heroku 
+(which is so, so much eaiser.) https://github.com/voxpelli/webpage-micropub-to-github - 
+And I just show them on my front page, which is in /_layouts/home.md/ if you want to check it out.
 
 -
 I give no liability, warranty, support, etc to anyone who decides to use this software. This is a personal project and the sole point of this repository is to track my prog-
