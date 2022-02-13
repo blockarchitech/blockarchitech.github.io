@@ -1,4 +1,4 @@
-[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/blockarchitech/blockarchitech.github.io/pages-build-deployment)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/blockarchitech/blockarchitech.github.io/pages-build-deployment)
 ```
 - blockarchitech.github.io source code -
 
