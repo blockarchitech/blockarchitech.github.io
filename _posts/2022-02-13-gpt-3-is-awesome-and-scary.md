@@ -8,7 +8,9 @@ mf-visibility:
   - public
 slug: gpt-3-is-awesome-and-scary
 ---
-OpenAI's GPT-3 is now available for public beta, so I went ahead and decided to try it out.   
+OpenAI's GPT-3 is now available for public beta, so I went ahead and decided to try it out, and turns out - it's pretty awesome, but at what cost?
+In this article I go over GPT-2, GPT's history and some demos of GPT-3.
+
   
 <h1>Background</h1>  
   
